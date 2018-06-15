@@ -584,22 +584,24 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ashishlakhani/Desktop/MachineLearningCB",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/Github"
+		"/Users/ashishlakhani/Desktop/MachineLearningCB"
 	],
 	"file_history":
 	[
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadooAndDNATranscription.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadooHatesNumbers.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadoovsKoba.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/.gitignore",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/2_15June/Matplotlib.ipynb",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/Github/Perceptron_Summer_Noida_2018/assignments/python_assignment.pdf",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/7_output2.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/8_output3.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/5_last3.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/3_minMax.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/12_output.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/11_pyramid.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/8_output3.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/7_output2.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadoovsKoba.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadooHatesNumbers.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadooAndDNATranscription.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/6_output1.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/5_last3.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/4_random.py",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/3_minMax.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/1_13June/Assignment/1_lenList.py",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-B/2_PetyaAndCountryside/example.cpp",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-B/3_BearAndFindingCriminals/small_output.txt",
@@ -713,10 +715,7 @@
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/24_CarrotCakes/small_output.txt",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/24_CarrotCakes/small_input.txt",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/23_Juicer/small_output.txt",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/23_Juicer/small_input.txt",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/23_Juicer/example.cpp",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/22_ShaassAndOskols/small_output.txt",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/22_ShaassAndOskols/small_input.txt"
+		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/23_Juicer/small_input.txt"
 	],
 	"find":
 	{
@@ -845,7 +844,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 177.0,
+	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

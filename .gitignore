@@ -6,3 +6,5 @@ notes.txt
 *.jpg
 *.jpeg
 *.csv
+.ipynb_checkpoints
+
