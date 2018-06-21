@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"clas",
+				"class_id"
+			],
+			[
+				"dat",
+				"data_item\tstatement"
+			],
+			[
+				"li",
+				"listdir\tfunction"
+			],
+			[
+				"out",
+				"output\tstatement"
+			],
+			[
+				"ds",
+				"dist\tstatement"
+			],
+			[
+				"dis",
+				"distance\tfunction"
+			],
+			[
+				"Fa",
+				"faces"
+			],
+			[
+				"as",
+				"asarray\tfunction"
+			],
+			[
 				"ans",
 				"ansTemp"
 			],
@@ -348,10 +380,6 @@
 				"num1"
 			],
 			[
-				"li",
-				"listMili"
-			],
-			[
 				"int",
 				"intMaxSetArray"
 			],
@@ -486,34 +514,6 @@
 			[
 				"border-bo",
 				"border-bottom-right-radius"
-			],
-			[
-				"border-le",
-				"border-bottom-left-radius"
-			],
-			[
-				"bor",
-				"border-radius"
-			],
-			[
-				"tex",
-				"text-center"
-			],
-			[
-				"pos",
-				"post"
-			],
-			[
-				"bol",
-				"bold"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"border-b",
-				"border-bottom"
 			]
 		]
 	},
@@ -523,26 +523,26 @@
 			"file": "4_20June/face_data.py",
 			"settings":
 			{
-				"buffer_size": 1181,
+				"buffer_size": 2173,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "4_20June/face_data_sir.py",
+			"file": "4_20June/recognition.py",
 			"settings":
 			{
-				"buffer_size": 1516,
+				"buffer_size": 2564,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "4_20June/haarcascade_frontalface_alt.xml",
+			"file": "4_20June/knn.py",
 			"settings":
 			{
-				"buffer_size": 676708,
-				"encoding": "Western (Windows 1252)",
+				"buffer_size": 0,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		}
@@ -590,6 +590,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"package control: in",
+				"Package Control: Install Package"
+			]
 		],
 		"width": 392.0
 	},
@@ -611,16 +615,21 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/ashishlakhani/Desktop/MachineLearningCB"
+		"/Users/ashishlakhani/Desktop/MachineLearningCB",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/data",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/data/face_dataset"
 	],
 	"file_history":
 	[
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/Github/class_04/recognition.py",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/haarcascade_frontalface_alt.xml",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/.gitignore",
+		"/Users/ashishlakhani/Desktop/MachineLearningCB/Github/class_04/haarcascade_frontalface_alt.xml",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/data/face_dataset/random.npy",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/data/face_dataset/ashish.npy",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/Github/class_04/face_data.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/ashish.xml",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/4_20June/haarcascade_frontalface_alt.xml",
-		"/Users/ashishlakhani/Desktop/MachineLearningCB/.gitignore",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/ExploringMLData/UCI Machine Learning.ipynb",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadoovsKoba.py",
 		"/Users/ashishlakhani/Desktop/MachineLearningCB/HackerearthPyth/JadooHatesNumbers.py",
@@ -740,13 +749,11 @@
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/27_FreeIceCream/small_output.txt",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/27_FreeIceCream/small_input.txt",
 		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/27_FreeIceCream/example.cpp",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/26_WayToLong/small_output.txt",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/26_WayToLong/small_input.txt",
-		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/25_AntonAndLetters/example.cpp"
+		"/Users/ashishlakhani/Desktop/Programs/__CPToDo/DIV-A/26_WayToLong/small_output.txt"
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 44.0
 	},
 	"find_in_files":
 	{
@@ -777,7 +784,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -786,83 +793,84 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1181,
+						"buffer_size": 2173,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								51,
+								1834
 							]
 						],
 						"settings":
 						{
+							"show_definitions": false,
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 243.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "4_20June/face_data_sir.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1516,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1492,
-								1492
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.x": 1.0,
+						"translation.y": 754.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "4_20June/haarcascade_frontalface_alt.xml",
+					"buffer": 1,
+					"file": "4_20June/recognition.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 676708,
+						"buffer_size": 2564,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								676708,
-								676708
+								153,
+								153
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 6.0,
+						"translation.y": 1605.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "4_20June/knn.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"show_definitions": false,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 559892.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -904,7 +912,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 71.0
+		"height": 36.0
 	},
 	"output.find_results":
 	{
@@ -960,7 +968,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 260.0,
+	"side_bar_width": 165.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
