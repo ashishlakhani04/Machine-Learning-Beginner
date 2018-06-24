@@ -40,8 +40,8 @@ class_id = 0
 for fx in os.listdir(dataset_path):
 	if fx.endswith('.npy'):
 
-		data_item = np.load(dataset_path+fx)
-		face_data.append(data_item)
+		data_item = np.load(dataset_path+fx) # ek person ki saari photos eg. (10,30k)
+		face_data.append(data_item) # .append only works with list
 
 		target = class_id * np.ones((data_item.shape[0],))
 		class_id += 1
@@ -89,10 +89,9 @@ while True:
 		face_section = frame[y-offset:y+h+offset, x-offset:x+w+offset]
 		face_section = cv2.resize(face_section, (100, 100))
 
-		out = knn(trainset,face_section.flatten())
+		out = knn(trainset,face_section.flatten()) #converts into row 1
 		cv2.putText(img = frame, text = dic[int(out)], org=(x,y-10), fontFace =  font, fontScale = 1, color = (255,0,0),thickness = 2,lineType= cv2.LINE_AA)
-		# cv2.putText(img, text, org, fontFace, fontScale, color, thickness, lineType, bottomLeftOrigin)
-		# cv2.putText(frame, names[int(out)],(x,y-10), font, 1,(255,0,0),2,cv2.LINE_AA)
+		
 		cv2.rectangle(frame, (x,y), (x+w,y+h), (0,255,0), 2)
 
 	cv2.imshow("Faces", frame)

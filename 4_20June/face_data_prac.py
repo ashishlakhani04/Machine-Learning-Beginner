@@ -46,6 +46,8 @@ while True:
 
 	if cv2.waitKey(1) & 0xFF == ord('q'):
 		break
+	# if cv2.waitKey(1) == ord('q'):
+	# 	break
 
 
 # save the face_data list into the file
